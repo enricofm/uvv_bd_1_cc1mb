@@ -1,4 +1,4 @@
-# uvv_bd_1_cc1mb
+# Repositório pset1
 ### Aluno: Enrico Freitas Modena
 ### Professor: Abrantes Araujo Silva Filho
 ### Turma: CC1MB
