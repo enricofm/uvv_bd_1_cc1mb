@@ -3,3 +3,4 @@
 O arquivo "elmasri-project.architect" contém o projeto Elmasri no SQL Power Architect.
 
 O arquivo "PSQL-elmasri-script.sql" contém o script das tabelas e dos dados no PostgreSQL.
+O arquivo "mariabd-elmasri-script.sql" contém o script das tabelas e dos dados no MariaBD.
