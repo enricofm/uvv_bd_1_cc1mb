@@ -1,3 +1,9 @@
+-- Criação do banco de dados
+
+CREATE DATABASE sistema_cerimonial;
+use sistema cerimonial;
+
+-- Criação das tabelas
 
 CREATE TABLE clientes (
                 codigo_cliente VARCHAR(15) NOT NULL,
@@ -163,6 +169,7 @@ CREATE TABLE musicos (
 
 ALTER TABLE musicos COMMENT 'Tabela que armazena as informacoes dos musicos.';
 
+-- Criação das contraints
 
 ALTER TABLE telefones ADD CONSTRAINT clientes_telefones_fk
 FOREIGN KEY (codigo_cliente)
