@@ -1,6 +1,22 @@
+-- Criação do usuário
+
+CREATE USER 'usuario'@'%' IDENTIFIED BY 'usuario';
+GRANT Reload ON *.* TO 'usuario'@'%';
+GRANT Process ON *.* TO 'usuario'@'%';
+GRANT File ON *.* TO 'usuario'@'%';
+GRANT Event ON *.* TO 'usuario'@'%';
+GRANT Create user ON *.* TO 'usuario'@'%';
+GRANT Create tablespace ON *.* TO 'usuario'@'%';
+GRANT Alter ON *.* TO 'usuario'@'%';
+GRANT Create ON *.* TO 'usuario'@'%';
+GRANT Index ON *.* TO 'usuario'@'%';
+GRANT Insert ON *.* TO 'usuario'@'%';
+GRANT Update ON *.* TO 'usuario'@'%';
+
 -- Criação do banco de dados
 
 CREATE DATABASE sistema_cerimonial;
+GRANT ALL PRIVILEGES ON sistema_cerimonial.* TO 'usuario'@'%';
 use sistema cerimonial;
 
 -- Criação das tabelas
